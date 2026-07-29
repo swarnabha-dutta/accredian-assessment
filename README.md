@@ -1,29 +1,20 @@
 # Accredian Enterprise UI Assignment
 
-> Building a production-ready, reusable, component-driven Enterprise Landing Page using Next.js and Tailwind CSS.
+Production-ready, reusable Enterprise Landing Page built with **Next.js** and **Tailwind CSS**.
 
----
-
-# Project Status
-
-## ✅ Completed
-
-### 1. Project Setup
+## 🚀 Tech Stack
 
 - Next.js (App Router)
-- Tailwind CSS configured
-- JavaScript project setup
-- Assets organized inside `public/images`
+- React
+- Tailwind CSS
+- JavaScript
+- Lucide React
 
----
-
-### 2. Folder Structure
+## 📁 Project Structure
 
 ```text
 src
-│
 ├── app
-│
 ├── components
 │   ├── accordion
 │   ├── cards
@@ -32,7 +23,6 @@ src
 │   ├── slider
 │   ├── timeline
 │   └── ui
-│
 ├── constants
 ├── data
 ├── hooks
@@ -40,189 +30,35 @@ src
 └── utils
 ```
 
----
+## ✅ Completed
 
-### 3. Assets Organized
+- Project Setup
+- Folder Structure
+- Responsive Navbar
+- Hero Section
+- Stats Section
+- Clients Section
+- Reusable Button Component
+- Reusable StatCard Component
+- Reusable ClientLogo Component
+- Data-Driven Rendering using Constants
+- Responsive Layout Foundation
 
-```text
-public
-│
-├── images
-│   ├── home
-│   ├── stats
-│   ├── clients
-│   ├── accredian-edge
-│   ├── cat
-│   ├── how-it-works
-│   ├── faq
-│   ├── testimonials
-│   ├── cta
-│   ├── footer
-│   └── common
-│
-└── icons
-```
+## 🚧 In Progress
 
----
-
-### 4. Navbar
-
-✔ Logo Added
-
-✔ Navigation Items
-
-- Home
-- Stats
-- Clients
 - Accredian Edge
 - CAT
 - How It Works
-- FAQs
+- FAQ
 - Testimonials
+- CTA
+- Footer
 
-✔ Reusable Navigation using constants
+## 🎯 Development Principles
 
-```js
-NAV_LINKS.map(...)
-```
-
----
-
-### 5. Home (Hero) Section
-
-Completed:
-
-- Hero Card Layout
-- Enterprise Image
-- Responsive Container
-- Heading
-- Description
-- Feature List
-- CTA Button
-- Shadow
-- Rounded Card
-- Hero Background
-- Proper Image Positioning
-
-Libraries Used
-
-- next/image
-- lucide-react
-
----
-
-### 6. Reusable Components
-
-Created
-
-```text
-components
-│
-├── layout
-│   └── Navbar.jsx
-│
-├── sections
-│   └── Home.jsx
-│
-└── ui
-    └── Button.jsx
-```
-
----
-
-### 7. Constants
-
-Implemented
-
-```text
-constants
-│
-├── navbar.js
-└── home.js
-```
-
-Current reusable data
-
-- Navigation Links
-- Hero Title
-- Description
-- Feature List
-- CTA Button Text
-
----
-
-### 8. UI Features Implemented
-
-- Reusable Button Component
-- Data Driven Navbar
-- Data Driven Hero
-- Reusable Hero Content
-- Responsive Layout Foundation
-- Clean Folder Architecture
-
----
-
-# Current Progress
-
-| Section | Status |
-|----------|--------|
-| Project Setup | ✅ |
-| Folder Structure | ✅ |
-| Navbar | ✅ |
-| Hero Section | ✅ (Initial Version) |
-| Stats | ⏳ |
-| Clients | ⏳ |
-| Accredian Edge | ⏳ |
-| CAT | ⏳ |
-| How It Works | ⏳ |
-| FAQ | ⏳ |
-| Testimonials | ⏳ |
-| CTA | ⏳ |
-| Footer | ⏳ |
-
----
-
-# Tech Stack
-
-- Next.js
-- React
-- Tailwind CSS
-- JavaScript
-- Lucide React
-
----
-
-# Development Principles
-
-- Component Driven Architecture
+- Component-Driven Architecture
 - Reusable UI Components
-- Data Driven Rendering
-- Clean Folder Structure
+- Data-Driven Rendering
 - Responsive Design
 - Accessibility First
-- Production Ready Code
-
----
-
-# Next Milestone
-
-- Build Stats Section
-- Create Reusable StatCard Component
-- Add Stats Constants
-- Match Reference UI
-- Continue Section-wise Development
-
----
-
-## Progress
-
-**Overall Progress:** **~20%**
-
-Completed:
-- ✅ Project Setup
-- ✅ Folder Structure
-- ✅ Navbar
-- ✅ Hero Section (Initial Version)
-
-Next:
-- 🔜 Stats Section
+- Production-Ready Code
