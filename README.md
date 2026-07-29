@@ -1,36 +1,228 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Accredian Enterprise UI Assignment
 
-## Getting Started
+> Building a production-ready, reusable, component-driven Enterprise Landing Page using Next.js and Tailwind CSS.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Project Status
+
+## ✅ Completed
+
+### 1. Project Setup
+
+- Next.js (App Router)
+- Tailwind CSS configured
+- JavaScript project setup
+- Assets organized inside `public/images`
+
+---
+
+### 2. Folder Structure
+
+```text
+src
+│
+├── app
+│
+├── components
+│   ├── accordion
+│   ├── cards
+│   ├── layout
+│   ├── sections
+│   ├── slider
+│   ├── timeline
+│   └── ui
+│
+├── constants
+├── data
+├── hooks
+├── lib
+└── utils
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Assets Organized
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+public
+│
+├── images
+│   ├── home
+│   ├── stats
+│   ├── clients
+│   ├── accredian-edge
+│   ├── cat
+│   ├── how-it-works
+│   ├── faq
+│   ├── testimonials
+│   ├── cta
+│   ├── footer
+│   └── common
+│
+└── icons
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Navbar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✔ Logo Added
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✔ Navigation Items
 
-## Deploy on Vercel
+- Home
+- Stats
+- Clients
+- Accredian Edge
+- CAT
+- How It Works
+- FAQs
+- Testimonials
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔ Reusable Navigation using constants
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```js
+NAV_LINKS.map(...)
+```
+
+---
+
+### 5. Home (Hero) Section
+
+Completed:
+
+- Hero Card Layout
+- Enterprise Image
+- Responsive Container
+- Heading
+- Description
+- Feature List
+- CTA Button
+- Shadow
+- Rounded Card
+- Hero Background
+- Proper Image Positioning
+
+Libraries Used
+
+- next/image
+- lucide-react
+
+---
+
+### 6. Reusable Components
+
+Created
+
+```text
+components
+│
+├── layout
+│   └── Navbar.jsx
+│
+├── sections
+│   └── Home.jsx
+│
+└── ui
+    └── Button.jsx
+```
+
+---
+
+### 7. Constants
+
+Implemented
+
+```text
+constants
+│
+├── navbar.js
+└── home.js
+```
+
+Current reusable data
+
+- Navigation Links
+- Hero Title
+- Description
+- Feature List
+- CTA Button Text
+
+---
+
+### 8. UI Features Implemented
+
+- Reusable Button Component
+- Data Driven Navbar
+- Data Driven Hero
+- Reusable Hero Content
+- Responsive Layout Foundation
+- Clean Folder Architecture
+
+---
+
+# Current Progress
+
+| Section | Status |
+|----------|--------|
+| Project Setup | ✅ |
+| Folder Structure | ✅ |
+| Navbar | ✅ |
+| Hero Section | ✅ (Initial Version) |
+| Stats | ⏳ |
+| Clients | ⏳ |
+| Accredian Edge | ⏳ |
+| CAT | ⏳ |
+| How It Works | ⏳ |
+| FAQ | ⏳ |
+| Testimonials | ⏳ |
+| CTA | ⏳ |
+| Footer | ⏳ |
+
+---
+
+# Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+- Lucide React
+
+---
+
+# Development Principles
+
+- Component Driven Architecture
+- Reusable UI Components
+- Data Driven Rendering
+- Clean Folder Structure
+- Responsive Design
+- Accessibility First
+- Production Ready Code
+
+---
+
+# Next Milestone
+
+- Build Stats Section
+- Create Reusable StatCard Component
+- Add Stats Constants
+- Match Reference UI
+- Continue Section-wise Development
+
+---
+
+## Progress
+
+**Overall Progress:** **~20%**
+
+Completed:
+- ✅ Project Setup
+- ✅ Folder Structure
+- ✅ Navbar
+- ✅ Hero Section (Initial Version)
+
+Next:
+- 🔜 Stats Section
