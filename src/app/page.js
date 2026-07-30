@@ -6,9 +6,11 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Stats />
-      <Clients/>
+      <main className="pt-20">
+        <Home />
+        <Stats />
+        <Clients />
+      </main>
     </>
   );
 }

@@ -3,7 +3,10 @@ import ClientLogo from "../cards/ClientLogo";
 
 export default function Clients() {
     return (
-        <section className="py-28">
+        <section
+            id="clients"
+            className="scroll-mt-20 py-8"
+        >
             <div className="mx-auto max-w-7xl px-6">
 
                 <div className="text-center">

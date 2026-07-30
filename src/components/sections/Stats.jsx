@@ -3,7 +3,10 @@ import StatCard from "../cards/StatCard";
 
 export default function Stats() {
     return (
-        <section className="py-28">
+        <section
+            id="stats"
+            className="scroll-mt-20 py-12"
+        >
             <div className="mx-auto max-w-7xl px-6">
 
                 {/* Heading */}

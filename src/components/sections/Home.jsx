@@ -5,7 +5,10 @@ import { CircleCheck } from "lucide-react";
 
 const Home = () => {
     return (
-        <section className="py-8">
+        <section
+            id="home"
+            className="scroll-mt-20"
+        >
             <div className="max-w-7xl mx-auto px-4">
                 <div
                     className="
