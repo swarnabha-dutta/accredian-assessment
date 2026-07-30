@@ -23,6 +23,7 @@ const Home = () => {
             min-h-[380px]
             px-12
             py-8
+            mt-10
           "
                 >
                     {/* Left Content */}

@@ -1,7 +1,7 @@
-export default function SectionContainer() {
+export default function SectionContainer({ children, className = "" }) {
     return (
-        <section className="max-w-7x1 mx-auto px-5">
+        <div className={`mx-auto max-w-7xl px-6 lg:px-8 ${className}`}>
             {children}
-        </section>
-    )
+        </div>
+    );
 }

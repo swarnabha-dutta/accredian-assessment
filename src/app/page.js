@@ -5,6 +5,7 @@ import Clients from "@/components/sections/Clients";
 import CourseSegmentation from "@/components/sections/CourseSegmentation";
 import DomainExpertise from "@/components/sections/DomainExpertise";
 import Home from "@/components/sections/Home";
+import HowItWorks from "@/components/sections/HowItWorks";
 import Stats from "@/components/sections/Stats";
 import StrategicSkill from "@/components/sections/StrategicSkill";
 
@@ -29,6 +30,7 @@ export default function Page() {
         <CourseSegmentation />
         <StrategicSkill />
         <CATSection />
+        <HowItWorks />
 
       </main>
     </>
