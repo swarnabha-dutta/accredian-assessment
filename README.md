@@ -137,6 +137,19 @@ src
 
 ---
 
+## How It Works
+
+- Responsive Three-Step Process Section
+- Reusable `HowItWorksCard` Component
+- Data-Driven Card Rendering
+- Lucide React Icons
+- Enterprise Card Layout
+- Responsive Grid System
+- Hash-Based Section Navigation
+- Smooth Scroll Integration
+
+---
+
 ## Reusable Components
 
 - Button
@@ -145,6 +158,7 @@ src
 - DomainCard
 - CourseCard
 - SkillCard
+- HowItWorksCard
 - CATTimeline
 
 ---
@@ -164,7 +178,6 @@ src
 
 # 🚧 Remaining Sections
 
-- How It Works
 - FAQ
 - Testimonials
 - CTA
@@ -174,8 +187,7 @@ src
 
 # 🎯 Next Milestone
 
-- Build How It Works Timeline
-- FAQ Accordion
+- Build FAQ Accordion
 - Testimonials Slider
 - CTA Section
 - Footer
@@ -210,7 +222,8 @@ src
 - ✅ Tailored Course Segmentation
 - ✅ Strategic Skill Enhancement
 - ✅ CAT Framework
+- ✅ How It Works
 
 ### Next
 
-- 🚀 How It Works
+- 🚀 FAQ
