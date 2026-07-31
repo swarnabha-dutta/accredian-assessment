@@ -1,14 +1,15 @@
 # Accredian Enterprise UI Assignment
 
-Production-ready, reusable Enterprise Landing Page built with **Next.js (App Router)** and **Tailwind CSS**.
+Production-ready Enterprise Landing Page built with **Next.js (App Router)** and **Tailwind CSS**.
 
 ## 🔗 Live Demo
 
-Vercel: https://your-vercel-link.vercel.app
+https://your-vercel-link.vercel.app
 
 ## 📂 GitHub Repository
 
-https://github.com/your-username/accredian-enterprise
+https://github.com/swarnabha-dutta/accredian-assessment
+
 ---
 
 # 🚀 Tech Stack
@@ -24,33 +25,16 @@ https://github.com/your-username/accredian-enterprise
 
 ---
 
-# 📦 Installation & Setup
-
-Clone the repository
+# 📦 Setup
 
 ```bash
-git clone <repository-url>
-```
-
-Move into the project
-
-```bash
-cd accredian-enterprise
-```
-
-Install dependencies
-
-```bash
+git clone https://github.com/swarnabha-dutta/accredian-assessment.git
+cd accredian-assessment
 npm install
-```
-
-Run development server
-
-```bash
 npm run dev
 ```
 
-Open
+Open:
 
 ```
 http://localhost:3000
@@ -58,324 +42,98 @@ http://localhost:3000
 
 ---
 
-# 📁 Project Structure
-
-```text
-src
-├── app
-├── components
-│   ├── accordion
-│   ├── cards
-│   ├── footer
-│   ├── form
-│   ├── layout
-│   ├── modal
-│   ├── sections
-│   ├── slider
-│   ├── timeline
-│   └── ui
-├── constants
-├── data
-├── hooks
-├── lib
-└── utils
-```
-
----
-
 # 🏗️ Approach
 
-The project follows a **Component-Driven Architecture** with a strong focus on reusability, scalability, and maintainability.
-
-### Design Principles
-
-- Reusable UI Components
-- Reusable Card Components
-- Reusable Footer
-- Reusable Modal & Form
+- Component-Driven Architecture
+- Reusable Components
 - Data-Driven Rendering
-- Custom React Hooks
-- Responsive Layout
+- Custom Hooks
+- Responsive Design
 - Clean Folder Structure
-- Optimized Images
-- Scalable Architecture
 
 ---
 
-# ✅ Features
-
-## Layout
+# ✨ Features
 
 - Responsive Navbar
-- Sticky Navigation
-- Smooth Scroll Navigation
-- Hash-Based Navigation
-
----
-
-## Hero
-
-- Enterprise Hero Layout
-- Responsive Design
-- CTA Button
-- Optimized Images
-
----
-
-## Stats
-
-- Responsive Statistics
-- Reusable Stat Cards
-- Data-Driven Rendering
-
----
-
-## Clients
-
-- Responsive Logo Grid
-- Reusable ClientLogo Component
-- Optimized Images
-
----
-
-## Accredian Edge
-
-- Enterprise Timeline
-- SVG / PNG Assets
-- Responsive Illustration
-
----
-
-## Domain Expertise
-
-- Responsive Card Grid
-- Lucide Icons
-- Hover Effects
-
----
-
-## Tailored Course Segmentation
-
-- Reusable Course Cards
-- Image Hover Animation
-- Responsive Layout
-
----
-
-## Strategic Skill Enhancement
-
-- Responsive Enterprise Layout
-- Reusable Skill Cards
-- Data-Driven Rendering
-
----
-
-## CAT Framework
-
-- Responsive Timeline
-- SVG Based Illustration
-- Component-Based Timeline
-
----
-
-## How It Works
-
-- Three Step Workflow
-- Reusable Cards
-- Responsive Grid
-
----
-
-## FAQ
-
-- Category Navigation
-- Accordion
-- Smooth Animation
-- Single Active Item
-- Data Driven
-
----
-
-## Testimonials
-
-- Custom Slider
-- Auto Sliding
-- Dot Navigation
-- Infinite Loop
-- Responsive Layout
-
----
-
-## CTA
-
-- Enterprise CTA Banner
-- Responsive Layout
-- Reusable Button
-- Reuses Existing Enquiry Modal
-- Reuses Existing Enquiry Form
-
----
-
-## Footer
-
+- Hero Section
+- Stats
+- Clients
+- Accredian Edge
+- Domain Expertise
+- Course Segmentation
+- Strategic Skill Enhancement
+- CAT Framework
+- How It Works
+- FAQ
+- Testimonials Slider
+- CTA Section
+- Reusable Enquiry Modal
 - Responsive Footer
-- Reusable Footer Components
-- Data-Driven Links
-- Social Media Integration
-- Contact Information
-- Existing Enquiry Modal Integration
-
----
-
-## Enquiry Modal
-
-- Responsive Modal
-- Two Column Layout
-- Form Validation
-- Controlled Form
-- Loading State
-- SweetAlert2 Feedback
-- Automatic Reset
-- Overlay Close
-- Close Button
 
 ---
 
 # ♻️ Reusable Components
 
 - Button
-- SectionContainer
 - Navbar
-- StatCard
-- ClientLogo
-- DomainCard
-- CourseCard
-- SkillCard
-- HowItWorksCard
-- TestimonialCard
-- TestimonialsSlider
-- TestimonialDots
-- FAQAccordion
-- FAQItem
-- CATTimeline
-- EnquiryModal
-- EnquiryForm
-- Footer
-- FooterTop
-- FooterLinks
-- FooterContact
-- FooterSocials
-- FooterCopyright
+- SectionContainer
+- Cards
+- FAQ Accordion
+- Testimonials Slider
+- CAT Timeline
+- Enquiry Modal & Form
+- Footer Components
 
 ---
 
-# 🪝 Custom Hooks
+# 📱 Responsive
 
-- useTestimonials
-
----
-
-# 📱 Responsive Design
-
-Tested across:
+Tested on:
 
 - Mobile (375px, 390px, 414px)
 - Tablet (768px)
 - Desktop (1024px+)
-- Large Desktop (1440px+)
-
----
-
-# ⚡ Performance Optimizations
-
-- next/image Optimization
-- Component Reusability
-- Data-Driven Rendering
-- Lazy Component Structure
-- Optimized Folder Organization
-- Reusable Constants
-- Clean Component Composition
 
 ---
 
 # 🤖 AI Usage
 
-AI tools were used during development to:
+AI was used for:
 
-- Plan the overall project architecture
-- Improve component reusability
-- Optimize responsive layouts
-- Refactor component structure
-- Generate implementation ideas
-- Review responsive behavior
-- Improve accessibility suggestions
-- Organize project structure
+- Project planning
+- Component architecture
+- Responsive improvements
+- Code refactoring
+- Accessibility suggestions
 
-### Manual Improvements
+### Manual Work
 
-- Built reusable component architecture
-- Created modular folder structure
-- Implemented responsive layouts manually
-- Refined spacing and typography
-- Integrated reusable enquiry modal & form
-- Built reusable footer architecture
-- Adjusted responsive behavior across multiple breakpoints
+- Built reusable architecture
+- Implemented responsive layouts
+- Improved spacing & typography
+- Integrated reusable footer and enquiry modal
 
 ---
 
 # 🚀 Future Improvements
 
-Given additional development time, the following enhancements would be implemented:
-
-- React Hook Form + Zod validation
+- React Hook Form + Zod
 - Backend API Integration
-- Lead Storage
-- Form Submission Analytics
+- SEO
 - Dark Mode
+- Framer Motion
 - Unit Testing
-- Framer Motion Animations
-- Improved Accessibility (ARIA)
-- SEO Enhancements
-- Loading Skeletons
 
 ---
 
-# 🛠 Development Principles
+# ✅ Status
 
-- Component-Driven Architecture
-- Reusable Components
-- Clean Code
-- Data-Driven Rendering
-- Responsive Design
-- Accessibility First
-- Maintainable Structure
-- Production Ready
+Assignment Completed
 
----
-
-# 📈 Current Status
-
-## Completed
-
-- ✅ Project Setup
-- ✅ Folder Structure
-- ✅ Navbar
-- ✅ Hero
-- ✅ Stats
-- ✅ Clients
-- ✅ Accredian Edge
-- ✅ Domain Expertise
-- ✅ Tailored Course Segmentation
-- ✅ Strategic Skill Enhancement
-- ✅ CAT Framework
-- ✅ How It Works
-- ✅ FAQ
-- ✅ Testimonials
-- ✅ CTA
-- ✅ Footer
-- ✅ Enquiry Modal
-- ✅ Responsive Design
-- ✅ Final Responsive Polish
+- Responsive Landing Page
+- Reusable Architecture
+- Mobile / Tablet / Desktop Support
 
 ---
 
