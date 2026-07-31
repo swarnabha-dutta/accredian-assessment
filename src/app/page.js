@@ -9,6 +9,7 @@ import Home from "@/components/sections/Home";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Stats from "@/components/sections/Stats";
 import StrategicSkill from "@/components/sections/StrategicSkill";
+import Testimonials from "@/components/sections/Testimonials";
 
 
 
@@ -33,6 +34,7 @@ export default function Page() {
         <CATSection />
         <HowItWorks />
         <FAQSection />
+        <Testimonials />
       </main>
     </>
   );
