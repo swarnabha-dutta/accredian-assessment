@@ -8,11 +8,45 @@ Production-ready, reusable Enterprise Landing Page built with **Next.js (App Rou
 
 - Next.js (App Router)
 - React
-- Tailwind CSS
-- JavaScript
+- Tailwind CSS v4
+- JavaScript (ES6+)
 - Lucide React
 - next/image
 - SweetAlert2
+
+---
+
+# 📦 Installation & Setup
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Move into the project
+
+```bash
+cd accredian-enterprise
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
 
 ---
 
@@ -40,173 +74,157 @@ src
 
 ---
 
-# ✅ Completed
+# 🏗️ Approach
 
-## Project Setup
+The project follows a **Component-Driven Architecture** with a strong focus on reusability and maintainability.
 
-- Next.js + Tailwind CSS
-- App Router Configuration
-- Assets Organized
+### Design Principles
+
+- Reusable UI Components
+- Reusable Card Components
+- Reusable Modal & Form
+- Data-Driven Rendering
+- Custom React Hooks
+- Responsive Layout
 - Clean Folder Structure
+- Optimized Images
+- Scalable Architecture
 
 ---
+
+# ✅ Features
 
 ## Layout
 
 - Responsive Navbar
 - Sticky Navigation
-- Hash-Based Section Navigation
-- Data-Driven Navigation
+- Smooth Scroll Navigation
+- Hash-Based Navigation
 
 ---
 
-## Hero Section
+## Hero
 
 - Enterprise Hero Layout
 - Responsive Design
 - CTA Button
-- Feature Highlights
 - Optimized Images
-- Reusable Content via Constants
 
 ---
 
-## Stats Section
+## Stats
 
-- Responsive Statistics Layout
-- Reusable `StatCard`
+- Responsive Statistics
+- Reusable Stat Cards
 - Data-Driven Rendering
-- Animated UI Structure
 
 ---
 
-## Clients Section
+## Clients
 
-- Company Logo Showcase
-- Reusable `ClientLogo`
-- Responsive Grid Layout
+- Responsive Logo Grid
+- Reusable ClientLogo Component
 - Optimized Images
 
 ---
 
 ## Accredian Edge
 
-- Enterprise Process Timeline
-- Responsive Timeline Illustration
-- Optimized SVG / PNG Assets
-- Pixel-Accurate Layout
+- Enterprise Timeline
+- SVG / PNG Assets
+- Responsive Illustration
 
 ---
 
 ## Domain Expertise
 
 - Responsive Card Grid
-- Reusable `DomainCard`
-- Data-Driven Rendering
-- Lucide React Icons
-- Hover Animation
+- Lucide Icons
+- Hover Effects
 
 ---
 
 ## Tailored Course Segmentation
 
-- Reusable `CourseCard`
-- Responsive 4-Column Layout
-- Optimized Images
-- Image Hover Zoom Effect
-- Data-Driven Content
+- Reusable Course Cards
+- Image Hover Animation
+- Responsive Layout
 
 ---
 
 ## Strategic Skill Enhancement
 
-- Responsive Enterprise Banner
-- Two-Column Layout
-- Reusable `SkillCard`
-- Lucide React Icons
-- Optimized Image
-- Enterprise CTA Section
+- Two Column Layout
+- Reusable Skill Cards
+- Enterprise Banner
 
 ---
 
 ## CAT Framework
 
-- Responsive CAT Framework Section
-- Original SVG-Based Timeline Illustration
-- Optimized SVG Rendering with `next/image`
-- Pixel-Accurate Layout
-- Responsive Scaling Across Devices
-- Component-Based Timeline Structure
+- Responsive Timeline
+- SVG Based Illustration
+- Component-Based Timeline
 
 ---
 
 ## How It Works
 
-- Responsive Three-Step Process Section
-- Reusable `HowItWorksCard` Component
-- Data-Driven Card Rendering
-- Lucide React Icons
-- Enterprise Card Layout
-- Responsive Grid System
-- Hash-Based Section Navigation
-- Smooth Scroll Integration
+- Three Step Workflow
+- Reusable Cards
+- Responsive Grid
 
 ---
 
 ## FAQ
 
-- Responsive Two-Column FAQ Layout
-- Category-Based FAQ Navigation
-- Reusable `FAQAccordion` Component
-- Reusable `FAQItem` Component
-- Single Active Accordion Logic
-- Smooth Expand / Collapse Animation
-- Data-Driven FAQ Rendering
-- Responsive Category Switching
-- Reusable CTA Button
-- Hash-Based Section Navigation
+- Category Navigation
+- Accordion
+- Smooth Animation
+- Single Active Item
+- Data Driven
 
 ---
 
 ## Testimonials
 
-- Responsive Testimonial Section
-- Reusable `TestimonialCard` Component
-- Reusable `TestimonialsSlider` Component
-- Reusable `TestimonialDots` Component
-- Custom `useTestimonials` Hook
-- Two-Card Desktop Slider
-- Single-Card Mobile Layout
-- Auto-Sliding Testimonials
+- Custom Slider
+- Auto Sliding
 - Dot Navigation
-- Infinite Loop Slider
-- Data-Driven Testimonial Rendering
-- Optimized Company Logos
-- Hash-Based Section Navigation
+- Infinite Loop
+- Responsive Layout
+
+---
+
+## CTA
+
+- Enterprise CTA Banner
+- Responsive Layout
+- Reusable Button
+- Reuses Existing Enquiry Modal
+- Reuses Existing Enquiry Form
 
 ---
 
 ## Enquiry Modal
 
-- Responsive Enterprise Modal
-- Two-Column Modal Layout
-- Optimized Image with `next/image`
-- Reusable Modal Component
-- Reusable `EnquiryForm` Component
-- Controlled Form State
-- Domain & Delivery Dropdowns
-- Loading Spinner on Submit
-- SweetAlert2 Feedback Popup
-- Automatic Form Reset
-- Modal Close on Completion
-- Overlay Click to Close
-- Close Button Support
+- Responsive Modal
+- Two Column Layout
+- Form Validation
+- Controlled Form
+- Loading State
+- SweetAlert2 Feedback
+- Automatic Reset
+- Overlay Close
+- Close Button
 
 ---
 
-## Reusable Components
+# ♻️ Reusable Components
 
 - Button
+- SectionContainer
+- Navbar
 - StatCard
 - ClientLogo
 - DomainCard
@@ -218,66 +236,92 @@ src
 - TestimonialDots
 - FAQAccordion
 - FAQItem
-- EnquiryForm
-- EnquiryModal
 - CATTimeline
+- EnquiryModal
+- EnquiryForm
 
 ---
 
-## Custom Hooks
+# 🪝 Custom Hooks
 
 - useTestimonials
 
 ---
 
-## Architecture
+# 📱 Responsive Design
 
-- Component-Driven Structure
-- Reusable Cards
-- Reusable Section Components
-- Reusable Slider Components
-- Custom Hooks
-- Data-Driven Rendering
-- Optimized Assets
-- Responsive SVG Integration
-- Responsive Modal Architecture
+- Desktop
+- Tablet
+- Mobile
+
+---
+
+# ⚡ Performance Optimizations
+
+- next/image Optimization
+- Reusable Components
+- Data Driven Rendering
+- Lazy Component Structure
 - Clean Folder Organization
-- Responsive Foundation
 
 ---
 
-# 🚧 Remaining Sections
+# 🤖 AI Usage
 
-- CTA
-- Footer
+AI tools were used during development to:
+
+- Plan the project architecture
+- Improve component reusability
+- Optimize responsive layouts
+- Refactor code structure
+- Improve accessibility
+- Generate implementation ideas
+- Review component organization
+
+### Manual Improvements
+
+- Built reusable architecture
+- Organized project structure
+- Refined responsive layouts
+- Implemented custom component composition
+- Adjusted spacing and layout manually
+- Integrated reusable enquiry modal and form
 
 ---
 
-# 🎯 Next Milestone
+# 🚀 Future Improvements
 
-- Build CTA Section
-- Build Footer
-- Final Responsive Polish
+Given additional development time, the following enhancements would be implemented:
+
+- Footer enhancements
+- Form validation using React Hook Form + Zod
+- Backend API Integration
+- Lead storage
+- Dark Mode
+- Unit Testing
+- Animations with Framer Motion
+- Better Accessibility (ARIA)
+- SEO Improvements
+- Loading Skeletons
 
 ---
 
 # 🛠 Development Principles
 
 - Component-Driven Architecture
-- Reusable UI Components
-- Reusable Custom Hooks
+- Reusable Components
+- Clean Code
 - Data-Driven Rendering
 - Responsive Design
 - Accessibility First
-- Optimized Assets
-- Clean Code
-- Production-Ready Structure
+- Maintainable Structure
+- Production Ready
 
 ---
 
-# 📈 Current Progress
+# 📈 Current Status
 
-### Sections
+## Completed
 
 - ✅ Project Setup
 - ✅ Folder Structure
@@ -293,9 +337,18 @@ src
 - ✅ How It Works
 - ✅ FAQ
 - ✅ Testimonials
+- ✅ CTA
 - ✅ Enquiry Modal
 
-### Next
+## Remaining
 
-- 🚀 CTA
-- 🚀 Footer
+- 🚧 Footer
+- 🚧 Final Responsive Polish
+
+---
+
+# 👨‍💻 Author
+
+**Swarnabha Dutta**
+
+Full Stack Developer | MERN Stack | Next.js | React
