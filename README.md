@@ -24,6 +24,7 @@ src
 ├── components
 │   ├── accordion
 │   ├── cards
+│   ├── form
 │   ├── layout
 │   ├── modal
 │   ├── sections
@@ -167,12 +168,31 @@ src
 
 ---
 
+## Testimonials
+
+- Responsive Testimonial Section
+- Reusable `TestimonialCard` Component
+- Reusable `TestimonialsSlider` Component
+- Reusable `TestimonialDots` Component
+- Custom `useTestimonials` Hook
+- Two-Card Desktop Slider
+- Single-Card Mobile Layout
+- Auto-Sliding Testimonials
+- Dot Navigation
+- Infinite Loop Slider
+- Data-Driven Testimonial Rendering
+- Optimized Company Logos
+- Hash-Based Section Navigation
+
+---
+
 ## Enquiry Modal
 
 - Responsive Enterprise Modal
 - Two-Column Modal Layout
 - Optimized Image with `next/image`
 - Reusable Modal Component
+- Reusable `EnquiryForm` Component
 - Controlled Form State
 - Domain & Delivery Dropdowns
 - Loading Spinner on Submit
@@ -193,10 +213,20 @@ src
 - CourseCard
 - SkillCard
 - HowItWorksCard
+- TestimonialCard
+- TestimonialsSlider
+- TestimonialDots
 - FAQAccordion
 - FAQItem
+- EnquiryForm
 - EnquiryModal
 - CATTimeline
+
+---
+
+## Custom Hooks
+
+- useTestimonials
 
 ---
 
@@ -205,6 +235,8 @@ src
 - Component-Driven Structure
 - Reusable Cards
 - Reusable Section Components
+- Reusable Slider Components
+- Custom Hooks
 - Data-Driven Rendering
 - Optimized Assets
 - Responsive SVG Integration
@@ -216,7 +248,6 @@ src
 
 # 🚧 Remaining Sections
 
-- Testimonials
 - CTA
 - Footer
 
@@ -224,9 +255,9 @@ src
 
 # 🎯 Next Milestone
 
-- Build Testimonials Slider
-- CTA Section
-- Footer
+- Build CTA Section
+- Build Footer
+- Final Responsive Polish
 
 ---
 
@@ -234,6 +265,7 @@ src
 
 - Component-Driven Architecture
 - Reusable UI Components
+- Reusable Custom Hooks
 - Data-Driven Rendering
 - Responsive Design
 - Accessibility First
@@ -260,10 +292,10 @@ src
 - ✅ CAT Framework
 - ✅ How It Works
 - ✅ FAQ
+- ✅ Testimonials
 - ✅ Enquiry Modal
 
 ### Next
 
-- 🚀 Testimonials
 - 🚀 CTA
 - 🚀 Footer
