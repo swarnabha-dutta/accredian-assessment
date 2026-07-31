@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/layout/Navbar";
 import AccredianEdge from "@/components/sections/AccredianEdge";
 import CATSection from "@/components/sections/CATSection";
@@ -37,6 +38,7 @@ export default function Page() {
         <FAQSection />
         <Testimonials />
         <CTASection />
+        <Footer />
       </main>
     </>
   );
