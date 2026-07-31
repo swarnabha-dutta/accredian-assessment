@@ -2,9 +2,18 @@
 
 Production-ready Enterprise Landing Page built with **Next.js (App Router)** and **Tailwind CSS**.
 
+## 📸 Screenshots
+
+### Deployment
+
+<p align="center">
+  <img width="1809" height="353" alt="image" src="https://github.com/user-attachments/assets/e9163b9e-1211-40a8-8cf2-7711cc34ebdf" />
+</p>
+---
+
 ## 🔗 Live Demo
 
-https://your-vercel-link.vercel.app
+[https://accredian-assessment-eight.vercel.app](https://accredian-assessment-eight.vercel.app/)
 
 ## 📂 GitHub Repository
 
@@ -107,7 +116,7 @@ AI was used for:
 - Code refactoring
 - Accessibility suggestions
 
-### Manual Work
+### Manual Improvements
 
 - Built reusable architecture
 - Implemented responsive layouts
