@@ -2,6 +2,13 @@
 
 Production-ready, reusable Enterprise Landing Page built with **Next.js (App Router)** and **Tailwind CSS**.
 
+## 🔗 Live Demo
+
+Vercel: https://your-vercel-link.vercel.app
+
+## 📂 GitHub Repository
+
+https://github.com/your-username/accredian-enterprise
 ---
 
 # 🚀 Tech Stack
