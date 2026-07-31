@@ -12,6 +12,7 @@ Production-ready, reusable Enterprise Landing Page built with **Next.js (App Rou
 - JavaScript
 - Lucide React
 - next/image
+- SweetAlert2
 
 ---
 
@@ -24,6 +25,7 @@ src
 │   ├── accordion
 │   ├── cards
 │   ├── layout
+│   ├── modal
 │   ├── sections
 │   ├── slider
 │   ├── timeline
@@ -150,6 +152,38 @@ src
 
 ---
 
+## FAQ
+
+- Responsive Two-Column FAQ Layout
+- Category-Based FAQ Navigation
+- Reusable `FAQAccordion` Component
+- Reusable `FAQItem` Component
+- Single Active Accordion Logic
+- Smooth Expand / Collapse Animation
+- Data-Driven FAQ Rendering
+- Responsive Category Switching
+- Reusable CTA Button
+- Hash-Based Section Navigation
+
+---
+
+## Enquiry Modal
+
+- Responsive Enterprise Modal
+- Two-Column Modal Layout
+- Optimized Image with `next/image`
+- Reusable Modal Component
+- Controlled Form State
+- Domain & Delivery Dropdowns
+- Loading Spinner on Submit
+- SweetAlert2 Feedback Popup
+- Automatic Form Reset
+- Modal Close on Completion
+- Overlay Click to Close
+- Close Button Support
+
+---
+
 ## Reusable Components
 
 - Button
@@ -159,6 +193,9 @@ src
 - CourseCard
 - SkillCard
 - HowItWorksCard
+- FAQAccordion
+- FAQItem
+- EnquiryModal
 - CATTimeline
 
 ---
@@ -171,6 +208,7 @@ src
 - Data-Driven Rendering
 - Optimized Assets
 - Responsive SVG Integration
+- Responsive Modal Architecture
 - Clean Folder Organization
 - Responsive Foundation
 
@@ -178,7 +216,6 @@ src
 
 # 🚧 Remaining Sections
 
-- FAQ
 - Testimonials
 - CTA
 - Footer
@@ -187,8 +224,7 @@ src
 
 # 🎯 Next Milestone
 
-- Build FAQ Accordion
-- Testimonials Slider
+- Build Testimonials Slider
 - CTA Section
 - Footer
 
@@ -223,7 +259,11 @@ src
 - ✅ Strategic Skill Enhancement
 - ✅ CAT Framework
 - ✅ How It Works
+- ✅ FAQ
+- ✅ Enquiry Modal
 
 ### Next
 
-- 🚀 FAQ
+- 🚀 Testimonials
+- 🚀 CTA
+- 🚀 Footer
