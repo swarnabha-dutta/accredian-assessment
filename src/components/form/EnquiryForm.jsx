@@ -23,73 +23,77 @@ export default function EnquiryForm({
     handleSubmit,
     loading,
 }) {
+    const inputClass =
+        "w-full border-b border-[#D4D8E1] pb-4 text-[18px] text-[#1F2937] outline-none placeholder:text-[#9CA3AF] focus:border-[#2973E8]";
+
+    const selectClass =
+        "w-full border-b border-[#D4D8E1] bg-transparent pb-4 text-[18px] text-[#374151] outline-none focus:border-[#2973E8]";
+
     return (
-        <form
-            onSubmit={handleSubmit}
-            className="space-y-8"
-        >
-            <fieldset disabled={loading}>
+        <form onSubmit={handleSubmit} className="mt-10 space-y-6">
+            <fieldset className="space-y-6">
                 {/* Name */}
                 <input
+                    disabled={loading}
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Enter Name"
-                    className="w-full border-b border-gray-300 pb-3 text-lg text-black outline-none placeholder:text-gray-400 focus:border-[#2973E8]"
+                    className={inputClass}
                 />
 
                 {/* Email */}
                 <input
+                    disabled={loading}
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="Enter Email"
-                    className="w-full border-b border-gray-300 pb-3 text-lg text-black outline-none placeholder:text-gray-400 focus:border-[#2973E8]"
+                    className={inputClass}
                 />
 
                 {/* Phone */}
-                <div className="flex items-center gap-3 border-b border-gray-300 pb-3">
-                    <span className="text-black">
-                        🇮🇳 +91
-                    </span>
+                <div className="flex items-center border-b border-[#D4D8E1] pb-4">
+                    <div className="mr-4 flex items-center gap-2 text-[18px] text-[#111827]">
+                        <span>🇮🇳</span>
+                        <span>+91</span>
+                    </div>
 
                     <input
+                        disabled={loading}
                         type="tel"
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="flex-1 outline-none"
+                        className="flex-1 text-[18px] text-[#1F2937] outline-none"
                     />
                 </div>
 
                 {/* Company */}
                 <input
+                    disabled={loading}
                     type="text"
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
                     placeholder="Enter company name"
-                    className="w-full border-b border-gray-300 pb-3 text-lg outline-none placeholder:text-gray-400 focus:border-[#2973E8]"
+                    className={inputClass}
                 />
 
                 {/* Domain */}
                 <select
+                    disabled={loading}
                     name="domain"
                     value={formData.domain}
                     onChange={handleChange}
-                    className="w-full border-b border-gray-300 bg-transparent pb-3 text-lg text-gray-700 outline-none focus:border-[#2973E8]"
+                    className={selectClass}
                 >
-                    <option value="">
-                        Select Domain
-                    </option>
+                    <option value="">Select Domain</option>
 
                     {domains.map((domain) => (
-                        <option
-                            key={domain}
-                            value={domain}
-                        >
+                        <option key={domain} value={domain}>
                             {domain}
                         </option>
                     ))}
@@ -97,30 +101,27 @@ export default function EnquiryForm({
 
                 {/* Candidates */}
                 <input
+                    disabled={loading}
                     type="number"
                     name="candidates"
                     value={formData.candidates}
                     onChange={handleChange}
                     placeholder="Enter No. of candidates"
-                    className="w-full border-b border-gray-300 pb-3 text-lg outline-none placeholder:text-gray-400 focus:border-[#2973E8]"
+                    className={inputClass}
                 />
 
                 {/* Delivery */}
                 <select
+                    disabled={loading}
                     name="delivery"
                     value={formData.delivery}
                     onChange={handleChange}
-                    className="w-full border-b border-gray-300 bg-transparent pb-3 text-lg text-gray-700 outline-none focus:border-[#2973E8]"
+                    className={selectClass}
                 >
-                    <option value="">
-                        Select Mode of Delivery *
-                    </option>
+                    <option value="">Select Mode of Delivery *</option>
 
                     {deliveryModes.map((mode) => (
-                        <option
-                            key={mode}
-                            value={mode}
-                        >
+                        <option key={mode} value={mode}>
                             {mode}
                         </option>
                     ))}
@@ -128,54 +129,27 @@ export default function EnquiryForm({
 
                 {/* Location */}
                 <input
+                    disabled={loading}
                     type="text"
                     name="location"
                     value={formData.location}
                     onChange={handleChange}
                     placeholder="Eg: Gurgaon, Delhi, India"
-                    className="w-full border-b border-gray-300 pb-3 text-lg outline-none placeholder:text-gray-400 focus:border-[#2973E8]"
+                    className={inputClass}
                 />
-
-                {/* Submit */}
-                <button
-                    type="submit"
-                    disabled={loading}
-                    className={`mt-4 flex w-full items-center justify-center rounded-xl py-4 text-xl font-semibold text-white transition ${loading
-                        ? "cursor-not-allowed bg-[#7AAAF8]"
-                        : "cursor-pointer bg-[#2973E8] hover:bg-[#165fd4]"
-                        }`}
-                >
-                    {loading ? (
-                        <>
-                            <svg
-                                className="mr-3 h-6 w-6 animate-spin"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                            >
-                                <circle
-                                    cx="12"
-                                    cy="12"
-                                    r="10"
-                                    stroke="currentColor"
-                                    strokeWidth="4"
-                                    className="opacity-25"
-                                />
-
-                                <path
-                                    fill="currentColor"
-                                    className="opacity-75"
-                                    d="M4 12a8 8 0 018-8v3a5 5 0 00-5 5H4z"
-                                />
-                            </svg>
-
-                            Submitting...
-                        </>
-                    ) : (
-                        "Submit"
-                    )}
-                </button>
             </fieldset>
+
+            {/* Submit Button */}
+            <button
+                type="submit"
+                style={{
+                    backgroundColor: "#2973E8",
+                    color: "#fff",
+                    opacity: 1,
+                }}
+            >
+                Submit
+            </button>
         </form>
     );
 }

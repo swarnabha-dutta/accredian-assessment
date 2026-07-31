@@ -3,6 +3,7 @@ import AccredianEdge from "@/components/sections/AccredianEdge";
 import CATSection from "@/components/sections/CATSection";
 import Clients from "@/components/sections/Clients";
 import CourseSegmentation from "@/components/sections/CourseSegmentation";
+import CTASection from "@/components/sections/CTASection";
 import DomainExpertise from "@/components/sections/DomainExpertise";
 import FAQSection from "@/components/sections/FAQSection";
 import Home from "@/components/sections/Home";
@@ -35,6 +36,7 @@ export default function Page() {
         <HowItWorks />
         <FAQSection />
         <Testimonials />
+        <CTASection />
       </main>
     </>
   );

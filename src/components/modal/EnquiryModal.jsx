@@ -35,7 +35,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
         location: "",
     });
 
-    const [loading, setLoading] = useState(false);
+    const loading = false;
 
     if (!isOpen) return null;
 
@@ -51,34 +51,11 @@ const EnquiryModal = ({ isOpen, onClose }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        setLoading(true);
-
-
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-
-        setLoading(false);
-
         await Swal.fire({
-            icon: "error",
-            title: "Oops! Something went wrong",
-            text: "We couldn't submit your request at the moment. Please try again shortly or contact support if the issue persists.",
-            confirmButtonColor: "#6C5CE7",
-            confirmButtonText: "OK",
+            icon: "success",
+            title: "Button Working",
+            text: "Loading disabled for testing",
         });
-
-        setFormData({
-            name: "",
-            email: "",
-            phone: "",
-            company: "",
-            domain: "",
-            candidates: "",
-            delivery: "",
-            location: "",
-        });
-
-        // Close modal
-        onClose();
     };
 
     return (
@@ -112,7 +89,7 @@ const EnquiryModal = ({ isOpen, onClose }) => {
 
                     {/* Right Form */}
                     <div className="flex flex-col justify-center px-12 py-10">
-                        <h2 className="mb-10 text-5xl font-bold text-[#111827]">
+                        <h2 className="text-4xl md:text-[56px] font-bold leading-none text-[#111827] ">
                             Enquire Now
                         </h2>
 
